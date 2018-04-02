@@ -1,6 +1,6 @@
 {
   "name": "vue-sparrow-calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "sparrow-calendar component for Vue.js",
   "main": "src/calendar.vue",
   "scripts": {
