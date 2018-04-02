@@ -1,0 +1,25 @@
+{
+  "name": "vue-sparrow-calendar",
+  "version": "0.1.0",
+  "description": "sparrow-calendar component for Vue.js",
+  "main": "src/calendar.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheap-pets/vue-sparrow-calendar.git"
+  },
+  "keywords": [
+    "datepicker"
+  ],
+  "author": "scrollbar-ww",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheap-pets/vue-sparrow-calendar/issues"
+  },
+  "homepage": "https://github.com/cheap-pets/vue-sparrow-calendar#readme",
+  "devDependencies": {
+    "sparrow-calendar": "^0.1.2"
+  }
+}

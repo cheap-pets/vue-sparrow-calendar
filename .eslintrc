@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "extends": [
+    "standard"
+  ],
+  "plugins": [
+    "html",
+    "vue"
+  ],
+  "globals": {
+    "Vue": false,
+    "Vuex": false,
+    "VueRouter": false,
+    "axios": false,
+    "moment": false
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "max-len": [
+      1,
+      {
+        "code": 120,
+        "tabWidth": 2,
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ]
+  }
+}
