@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div @dateselect="dateselect"></div>
 </template>
 
 <script>
@@ -8,7 +8,7 @@
   export default {
     props: ['date'],
     methods: {
-      dateSelect (e) {
+      dateselect (e) {
         this.$emit('dateselect', e)
       }
     },
@@ -16,9 +16,6 @@
       this.calendar = new Calendar({
         el: this.$el
       })
-      this.calendar.ondateselect = (e) => {
-        this.$emit('dateselect', e)
-      }
     }
   }
 </script>
